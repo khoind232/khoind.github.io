@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.anuong {
+	max-width: 1000px;
+	margin: auto;
+}
+.menu li {
+	list-style-type: none;
+}
+.menu a {
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.sub >li> ul {
+	display: none;
+}
+.sub >li:hover > ul {
+	display: block;
+}
+.menu ul {
+	background-color: green;
+	width: 150px;
+
+}
+.menu ul li {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;	
+	position: relative;
+}
+.menu ul li:hover {
+	background-color: #5b4465;
+
+}
+.con {
+	position: absolute;
+	left: 150px;
+	top:0;
+	text-align: center;
+}
+#anhbia  {
+	float: left;
+	
+	
+}
+.ban {
+	width: 150px;
+}
+.monan img {
+	width: 333px;
+	height: 250px;
+	float: left;
+	padding: 2px;
+	margin: auto;
+}
+.monan a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+.monan  {
+	width: 1000px;
+	margin: auto;
+}
+
+html {
+	background: green;
+}
+.monan div {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	border: 1px solid red;
+	background: #4e2424;
+	margin-bottom: 5px;
+}
